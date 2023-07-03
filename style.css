@@ -1,0 +1,106 @@
+body {
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #23a588;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-buttons {
+    display: flex;
+}
+
+.navigation-buttons button {
+    margin-left: 10px;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    font-style: italic;
+    flex: 1; /* Add this line */
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    margin-top: 0;
+    font-style: italic;
+
+}
+
+p {
+    line-height: 1.5;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.info-container {
+    display: flex;
+    align-items: center;
+}
+
+.text-container {
+    flex: 1;
+}
+
+.image-container {
+    margin-left: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.skills-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.interests-section {
+    flex: 1;
+}
+
+.skills-section,
+.interests-section {
+    margin-top: 30px;
+}
+.gallery-section {
+    margin-top: 30px;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+
+}
+
+
+.gallery-section .gallery-container img {
+    width: 100%;
+    height: auto;
+}
